@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import { Rutas } from './routing/Rutas'
-
-
-
+import { Rutas } from "./routing/Rutas";
 
 function App() {
- 
   return (
-    <div className='layout'  >
-     <Rutas/>
+    <div className='layout'>
+      <Rutas />
     </div>
-  ) 
+  );
 }
 
-export default App
+export default App;
